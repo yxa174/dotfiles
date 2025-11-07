@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+# директория, где лежит этот скрипт
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Создаём симлинк для .vimrc (относительно каталога dotfiles)
 ln -sf "$SCRIPT_DIR/.vimrc" "$HOME/.vimrc"
