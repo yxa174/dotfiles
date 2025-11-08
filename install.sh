@@ -37,7 +37,7 @@ set smartcase
 " Backspace and undo
 set backspace=indent,eol,start
 set undofile
-set undodir=$HOME/.vim/undos
+set undodir=~/.vim/undos
 
 " Split behavior
 set splitbelow
@@ -55,9 +55,9 @@ set list
 set listchars=tab:▸\ ,trail:·,extends:>,precedes:<
 
 " Better statusline
-" set laststatus=2
-" set showtabline=2
-" EOF
+set laststatus=2
+set showtabline=2
+EOF
 
 # Создаём необходимые директории
 mkdir -p "$HOME/.vim/backups" "$HOME/.vim/swaps" "$HOME/.vim/undos"
