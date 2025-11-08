@@ -55,9 +55,9 @@ set list
 set listchars=tab:▸\ ,trail:·,extends:>,precedes:<
 
 " Better statusline
-" set laststatus=2
-"set showtabline=2
-" EOF
+set laststatus=2
+set showtabline=2
+EOF
 
 # Создаём необходимые директории
 mkdir -p "$HOME/.vim/backups" "$HOME/.vim/swaps" "$HOME/.vim/undos"
